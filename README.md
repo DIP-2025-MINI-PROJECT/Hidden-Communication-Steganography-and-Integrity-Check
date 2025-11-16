@@ -6,6 +6,7 @@ The project aims to hide text or image given as input by the user in a selected 
 The project also provides hidden communication via steganography with the help of a password and XOR encryption.
 
 The project contains the following methods:
+
 1)Text encryption in image with LSB manipulation
 a. Grayscale Image
 b. Colour Image
