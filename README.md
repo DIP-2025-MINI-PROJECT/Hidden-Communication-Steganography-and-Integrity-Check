@@ -68,3 +68,19 @@ This project demonstrates hidden communication using LSB steganography and XOR-b
 - [YouTube Tutorial 1](https://www.youtube.com/watch?v=ZXfNhSlXT0w)
 - [YouTube Tutorial 2](https://www.youtube.com/watch?v=e3ccQogNh70)
 
+## Limitations
+
+- Steganography capacity is limited by the size of the carrier image.
+- LSB methods are sensitive to compression, resizing, and filtering.
+- Recovered secret image may show reduced quality due to MSB-only embedding.
+- Extraction of text requires knowing the message length beforehand.
+
+## Future Work
+
+- Implement adaptive or multi-bit LSB techniques to increase capacity.
+- Add error-correction coding to make extraction more reliable.
+- Use frequency-domain methods (DCT/DWT) for higher robustness.
+- Extend the system to video or audio steganography.
+- Build a GUI to simplify user interaction.
+
+
