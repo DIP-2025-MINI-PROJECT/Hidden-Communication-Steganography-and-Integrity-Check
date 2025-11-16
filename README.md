@@ -14,3 +14,21 @@ a. Grayscale Image
 b. Colour Image
 
 2)Encryption of an image into a carrier image incorporating a XOR based password/key along with LSB manipulation.
+
+Course Concepts Used
+
+Image Sampling and Quantization
+
+Linear and Nonlinear Operations (bitwise manipulation, masking, logical operations)
+
+Spatial Domain Processing
+
+Grayscale and RGB Image Processing
+
+Additional Concepts Used
+
+LSB substitution
+
+XOR encryption
+
+Binary/ASCII conversion
