@@ -43,7 +43,7 @@ This project demonstrates hidden communication using LSB steganography and XOR-b
 
 - Carrier image (grayscale or colour)
 - Secret text or secret image
-- Optional XOR key
+- XOR key
 
 ### Outputs
 
@@ -55,8 +55,8 @@ This project demonstrates hidden communication using LSB steganography and XOR-b
 
 ## References
 
-- GeeksforGeeks – LSB Steganography
-- MATLAB FileExchange – LSB Substitution
-- YouTube Tutorials
-- MATLAB Documentation
+- [GeeksforGeeks – LSB Steganography](https://www.geeksforgeeks.org/computer-graphics/lsb-based-image-steganographyusing-matlab/)
+- [MATLAB FileExchange – LSB Substitution](https://in.mathworks.com/matlabcentral/fileexchange/41326-steganography-usinglsb-substitution?requestedDomain=)
+- [YouTube Tutorial 1](https://www.youtube.com/watch?v=ZXfNhSlXT0w)
+- [YouTube Tutorial 2](https://www.youtube.com/watch?v=e3ccQogNh70)
 
