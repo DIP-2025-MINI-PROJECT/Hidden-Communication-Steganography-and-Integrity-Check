@@ -8,7 +8,9 @@ The project also provides hidden communication via steganography with the help o
 The project contains the following methods:
 
 1)Text encryption in image with LSB manipulation
+
 a. Grayscale Image
+
 b. Colour Image
 
 2)Encryption of an image into a carrier image incorporating a XOR based password/key along with LSB manipulation.
