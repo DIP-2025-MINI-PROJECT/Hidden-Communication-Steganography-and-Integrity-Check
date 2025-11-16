@@ -53,6 +53,14 @@ This project demonstrates hidden communication using LSB steganography and XOR-b
 
 ---
 
+### Team Members
+
+- Siddharth Bhat (PES1UG23EC296)
+- Shreyas B (PES1UG24EC812)
+- Sauradipta Basu(PES1UG23EC280)
+
+---
+
 ## References
 
 - [GeeksforGeeks – LSB Steganography](https://www.geeksforgeeks.org/computer-graphics/lsb-based-image-steganographyusing-matlab/)
