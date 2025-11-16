@@ -1,29 +1,32 @@
 # Hidden-Communication-Steganography-and-Integrity-Check
 
-Summary
-The objective of the project is to demonstrate and illustrate the art of hidden communication using steganography.
-The project aims to hide text or image given as input by the user in a selected carrier image of the user’s choice.
-The project also provides hidden communication via steganography with the help of a password and XOR encryption.
+This project demonstrates hidden communication using LSB steganography and XOR-based encryption.
+Users can hide text or an image inside a carrier image with minimal visible distortion.
 
-The project contains the following methods:
+Project Structure
+Methods Implemented
+1. Text Encryption using LSB
 
-1)Text encryption in image with LSB manipulation
+-(a) Grayscale Image Steganography
 
-a. Grayscale Image
+-(b) Colour Image Steganography
+Uses Least Significant Bit (LSB) manipulation to embed secret text inside a grayscale or colour image.
 
-b. Colour Image
+2. Image-in-Image Steganography (with XOR Encryption)
 
-2)Encryption of an image into a carrier image incorporating a XOR based password/key along with LSB manipulation.
+Hides an entire image inside another image.
+
+Secret image is first encrypted using XOR with a key.
+
+Only the MSB of encrypted secret is stored in the LSB of carrier, ensuring minimal distortion.
 
 Course Concepts Used
 
 Image Sampling and Quantization
 
-Linear and Nonlinear Operations (bitwise manipulation, masking, logical operations)
+Linear & Nonlinear Operations
 
 Spatial Domain Processing
-
-Grayscale and RGB Image Processing
 
 Additional Concepts Used
 
@@ -31,4 +34,23 @@ LSB substitution
 
 XOR encryption
 
-Binary/ASCII conversion
+Binary and ASCII conversion
+
+Inputs and Outputs
+Inputs
+
+Carrier image (grayscale or colour)
+
+Secret text or secret image
+
+Optional XOR key
+
+Outputs
+
+Stego image
+
+Extracted text (for Method 1)
+
+Recovered secret image (for Method 2)
+
+Grayscale and RGB Image Processing
